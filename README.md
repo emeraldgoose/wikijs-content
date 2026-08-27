@@ -1,2 +1,2 @@
 # wikijs-content
-wiki.js content repo
+wiki.js content
