@@ -3,45 +3,63 @@ title: In-House LLM Serving at Netflix
 description: In-House LLM Serving at Netflix
 By AI Platform’s Model Runtime team and Inference team
 Introduction
-Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather...
+Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ou
 published: true
-date: 2026-07-17 21:32:39
-tags: JVM, gRPC, HTTP, XGBoost, TensorFlow, PyTorch, NVIDIA Triton Inference Server, Java
+date: 2026-07-17T21:32:39.000Z
+tags:
+  - llm
+  - pytorch
+  - tensorflow
+  - python
+  - grpc
 editor: markdown
-dateCreated: 2026-08-28T14:48:13.354900
+dateCreated: 2026-08-28T23:57:10.000Z
 ---
 
 # In-House LLM Serving at Netflix
 
-> **Level**: Advanced  
+> **Level**: Intermediate  
 > **Source**: [In-House LLM Serving at Netflix](#)  
 > **Last Updated**: 2026-08-28
 
 ## Introduction
 
-Netflix's In-House LLM Serving is an internal infrastructure initiative wherein the company deploys and operates large language model inference within its existing production environment, rather than relying on external hosted APIs. This architecture enables member-scale machine learning integration through a unified JVM-based serving system that manages routing, A/B testing, and logging alongside inference. By bypassing separate ML silos, Netflix maintains control over engine selection, model packaging, and output constraints while optimizing for latency and cost. Key use cases encompass both real-time gRPC interactions and direct HTTP pathways, supporting in-process CPU models for lightweight tasks and remote GPU services for complex inference. This operational model prioritizes production-level insights into deployment strategies and performance trade-offs inherent to large-scale model serving.
+In-House LLM Serving at Netflix is the production-level implementation of full-stack large language model deployment and inference within the company's proprietary environment, rather than relying on external hosted APIs. This architectural choice enables tighter integration with existing JVM-based serving systems, facilitating real-time member-scale machine learning while managing specific engineering trade-offs. Critical design decisions encompass engine selection, model packaging, and API surface design to handle varying infrastructure loads. Key applications include routing logic, candidate generation, feature fetching, and post-processing for both real-time and batch inference paths. The system supports hybrid execution models where small CPU models run in-process, while larger GPU-enabled models delegate to remote services.
 
 ## Core Concepts
 
-### Unified In-Production Serving Architecture
-- Netflix avoids separating ML into a silo by running the full stack (deployment through inference) inside their existing production environment.
-- A unified JVM-based serving system fronts member-scale ML, managing the end-to-end flow including routing, A/B testing, feature fetching, inference, post-processing, and logging.
-- The architecture supports both real-time and cached batch paths, with downstream consumers accessing models via a gRPC path through the serving system or a direct HTTP path for newer LLM applications.
+### Concept 1
+**Strategic In-House Execution**
+*   Netflix runs the full LLM stack in-house, covering everything from model deployment to inference.
+*   Operations occur inside the existing production environment rather than in a separate ML silo.
+*   This approach contrasts with the common organizational practice of consuming LLMs through hosted APIs.
+*   Key design decisions focus on production load realities, including engine selection, model packaging, and API surface design.
 
-### Strategic Model Placement (In-Process vs. Remote)
-- The location where inference runs is determined by model size and requirements to optimize performance.
-- Small CPU models execute in-process within the serving system to avoid remote-call overhead.
-- Larger models, such as LLMs requiring GPUs, delegate inference to a remote Model Scoring Service (MSS) while keeping pre- and post-processing local.
+### Concept 2
+**Unified JVM-Based Serving System**
+*   A unified JVM-based system fronts member-scale ML to handle the end-to-end flow for downstream consumers.
+*   The system manages routing, A/B test logic, candidate generation, feature fetching, inference, post-processing, and logging.
+*   It supports both real-time and cached batch paths for upstream requests.
+*   Inference is accessible via a gRPC path through the serving system or a direct HTTP path used by newer LLM-driven applications.
 
-### Model Scoring Service (MSS) & Triton Backend
-- The MSS acts as a shared inference backend supporting various model types including XGBoost, TensorFlow, PyTorch, and LLMs behind a unified interface.
-- NVIDIA Triton Inference Server operates underneath the MSS to handle technical model requirements like loading, batching, and GPU scheduling.
-- This setup allows different model architectures to be served through a common infrastructure layer.
+### Concept 3
+**Hybrid Inference Routing Strategy**
+*   The location of inference execution depends on the specific model requirements.
+*   Small CPU models run in-process to avoid the overhead associated with remote calls.
+*   Larger models that require GPUs delegate inference to a remote service called the Model Scoring Service (MSS).
+*   The serving system handles pre- and post-processing locally even when delegating heavy inference tasks.
 
-### Java Control Plane Management
-- A Java control plane sits on top of Triton to manage the operational lifecycle of the models.
-- It handles critical deployment tasks such as versioning, health checking, autoscaling, and multi-region rollout.
-- Model authors are responsible for packaging artifacts and configuring deployment, while the control plane provisions GPU instances and configures the underlying services.
+### Concept 4
+**Model Scoring Service (MSS) Backend**
+*   MSS serves as the shared inference backend supporting XGBoost, TensorFlow, PyTorch, and LLMs behind a unified interface.
+*   It utilizes NVIDIA Triton Inference Server underneath to manage model loading, batching, and GPU scheduling.
+*   This infrastructure allows different model types to coexist on a shared backend platform.
+
+### Concept 5
+**Java Control Plane Management**
+*   A Java control plane sits on top of Triton to handle operational management tasks.
+*   Responsibilities include deployment, versioning, health checking, autoscaling, and multi-region rollout.
+*   Model authors can package artifacts and configure deployments, while the control plane provisions GPU instances and configures the underlying Triton server.
 
 ## Practical Examples
 
@@ -49,16 +67,12 @@ Netflix's In-House LLM Serving is an internal infrastructure initiative wherein 
 
 ## Related Topics
 
-- [[MLOps]]
-- [[Distributed Systems]]
-- [[GPU Scheduling]]
-- [[Model Deployment]]
-- [[Scalability]]
+*To be added based on wiki graph.*
 
 ## References
 
 - Original Article: [In-House LLM Serving at Netflix](#)
-- Published: 2026-07-17 21:32:39
+- Published: 2026-07-17
 
 ---
 
