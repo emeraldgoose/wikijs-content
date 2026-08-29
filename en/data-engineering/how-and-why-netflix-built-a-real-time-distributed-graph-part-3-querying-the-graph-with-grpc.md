@@ -23,6 +23,6 @@ title: How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Query
 
 ---
 
-*Generated from Knowledge State on 2026-08-29 13:08:36*
+*Generated from Knowledge State on 2026-08-29 14:43:19*
 
 *Concept ID: `con_756833888c69`*
