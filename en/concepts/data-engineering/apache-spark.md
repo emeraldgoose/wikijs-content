@@ -1,34 +1,17 @@
 ---
-title: Apache Spark — Concept
-description: Apache Spark core concept for SW engineers (technical seminar level)
+title: Apache Spark — Concept (Seminar Level)
+description: Seminar-level concept: Spark architecture, RDD/DAG, Structured Streaming, use cases.
 published: true
 tags: [concept, data-engineering, spark, distributed-computing]
 ---
 
-# Apache Spark
+# Apache Spark — Seminar Summary
 
-## Overview {.tabset}
+Read from full documentation + source articles (AWS lakehouse, Netflix Flink comparison, Databricks engineering).
 
-### What it is
-Open-source unified analytics engine for large-scale data processing. Memory-based cluster computing with RDD / DataFrame / Dataset APIs.
-
-### Key properties
-- Fault-tolerant (RDD lineage)
-- Multi-language (Scala, Java, Python, SQL)
-- Batch + stream unification (Structured Streaming)
-- Lazy evaluation + DAG optimization
-
-### When to use
-ETL at scale, stream processing (Kafka → Spark Streaming), ML pipelines (MLlib / Spark ML).
-
-## Architecture
-Driver → Cluster Manager → Workers (Executors). Tasks scheduled via DAG Scheduler.
-
-## Related Sources
-- en/sources/articles/netflix-techblog.md (Flink autoscaler comparison)
-- en/sources/articles/aws-bigdata.md (lakehouse with Spark on EC2)
-- en/sources/articles/databricks-engineering.md
-
-## Related Guides
-- guides/data-engineering/spark/optimize-shuffle.md
-- guides/data-engineering/spark/optimize-join.md
+What: Unified batch + stream processing engine (memory-based cluster computing).
+How: Driver submits DAG → Cluster Manager schedules → Workers run tasks; fault tolerance via RDD lineage.
+Key APIs: RDD (low-level), DataFrame (structured), Dataset (typed).
+Streaming: Structured Streaming treats stream as unbounded table; exactly-once semantics.
+Performance: lazy evaluation + DAG optimization + Catalyst optimizer + Tungsten engine.
+Use at Netflix / AWS: ETL backbone in lakehouse (Spark on EC2); comparison with Flink autoscaler for resource scaling.
