@@ -3,6 +3,7 @@ title: Apache Spark — 개념 (번역)
 description: en/concepts/data-engineering/apache-spark.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, spark, ko]
+locale: ko
 ---
 
 # Apache Spark — 핵심 요약

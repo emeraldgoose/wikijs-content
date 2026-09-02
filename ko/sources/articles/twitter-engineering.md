@@ -3,6 +3,7 @@ title: Twitter Engineering — 소스 (번역 요약)
 description: en/sources/articles/twitter-engineering.md 한국어 번역 요약
 published: true
 tags: [source, twitter, x, data-engineering, ko]
+locale: ko
 ---
 
 # Twitter/X Engineering — 주요 기사 요약

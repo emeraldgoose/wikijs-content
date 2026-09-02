@@ -3,6 +3,7 @@ title: Netflix Tech Blog — 소스 (번역 요약)
 description: en/sources/articles/netflix-techblog.md 한국어 번역 요약
 published: true
 tags: [source, netflix, data-engineering, ai-engineering, ko]
+locale: ko
 ---
 
 # Netflix Tech Blog — 주요 기사 요약

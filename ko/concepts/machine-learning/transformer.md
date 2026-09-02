@@ -3,6 +3,7 @@ title: Transformer — 개념 (번역)
 description: en/concepts/machine-learning/transformer.md 한국어 번역 요약
 published: true
 tags: [concept, machine-learning, transformer, ko]
+locale: ko
 ---
 
 # Transformer — 핵심 요약

@@ -3,6 +3,7 @@ title: Service Mesh — 개념 (번역)
 description: en/concepts/infrastructure/service-mesh.md 한국어 번역 요약
 published: true
 tags: [concept, infrastructure, service-mesh, ko]
+locale: ko
 ---
 
 # Service Mesh — 핵심 요약

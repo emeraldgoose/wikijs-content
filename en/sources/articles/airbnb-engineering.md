@@ -3,6 +3,7 @@ title: Airbnb Engineering — Source (Full Body)
 description: Airbnb Engineering (Medium) — full-body summaries for seminar preparation
 published: true
 tags: [source, airbnb, data-engineering, ai-engineering, tier-2]
+locale: en
 ---
 
 # Airbnb Engineering

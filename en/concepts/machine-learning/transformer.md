@@ -3,6 +3,7 @@ title: Transformer — Concept (Seminar Level)
 description: Seminar-level concept: Transformer architecture, attention mechanisms, scaling laws, training dynamics
 published: true
 tags: [concept, machine-learning, transformer, attention, llm, scaling]
+locale: en
 ---
 
 # Transformer — Seminar Summary

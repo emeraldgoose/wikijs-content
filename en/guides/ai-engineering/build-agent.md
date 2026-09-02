@@ -3,6 +3,7 @@ title: Build AI Agent — Guide (Seminar Level)
 description: Execution guide: build production AI agent (architecture, harness, memory, tools, safety)
 published: true
 tags: [guide, ai-engineering, agent, system1-system2, harness, safety]
+locale: en
 ---
 
 # Build AI Agent — Execution Guide

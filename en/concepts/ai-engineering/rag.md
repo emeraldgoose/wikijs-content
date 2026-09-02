@@ -3,6 +3,7 @@ title: RAG (Retrieval-Augmented Generation) — Concept (Seminar Level)
 description: Seminar-level concept: RAG architecture, retrieval, generation, evaluation, production patterns
 published: true
 tags: [concept, ai-engineering, rag, retrieval, generation, llm]
+locale: en
 ---
 
 # RAG — Seminar Summary

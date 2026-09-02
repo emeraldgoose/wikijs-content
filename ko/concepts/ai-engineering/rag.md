@@ -3,6 +3,7 @@ title: RAG — 개념 (번역)
 description: en/concepts/ai-engineering/rag.md 한국어 번역 요약
 published: true
 tags: [concept, ai-engineering, rag, ko]
+locale: ko
 ---
 
 # RAG — 핵심 요약

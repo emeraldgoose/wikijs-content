@@ -3,6 +3,7 @@ title: AWS Big Data — 소스 (번역 요약)
 description: en/sources/articles/aws-bigdata.md 한국어 번역 요약
 published: true
 tags: [source, aws, data-engineering, lakehouse, ko]
+locale: ko
 ---
 
 # AWS Big Data Blog — 주요 기사 요약

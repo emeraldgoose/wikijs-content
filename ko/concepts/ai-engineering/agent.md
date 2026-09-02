@@ -3,6 +3,7 @@ title: Agent — 개념 (번역)
 description: en/concepts/ai-engineering/agent.md 한국어 번역 요약
 published: true
 tags: [concept, ai-engineering, agent, ko]
+locale: ko
 ---
 
 # AI Agent — 핵심 요약

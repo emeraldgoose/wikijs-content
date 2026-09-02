@@ -3,6 +3,7 @@ title: Docker — Concept (Seminar Level)
 description: Seminar-level concept: Docker/container fundamentals, images, layers, build optimization, security
 published: true
 tags: [concept, infrastructure, docker, container, buildkit]
+locale: en
 ---
 
 # Docker / Containers — Seminar Summary

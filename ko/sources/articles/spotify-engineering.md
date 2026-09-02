@@ -3,6 +3,7 @@ title: Spotify Engineering — 소스 (번역 요약)
 description: en/sources/articles/spotify-engineering.md 한국어 번역 요약
 published: true
 tags: [source, spotify, data-engineering, ko]
+locale: ko
 ---
 
 # Spotify Engineering — 주요 기사 요약

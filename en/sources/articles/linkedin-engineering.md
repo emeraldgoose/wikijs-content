@@ -3,6 +3,7 @@ title: LinkedIn Engineering — Source (Full Body)
 description: LinkedIn Engineering blog — full-body summaries for seminar preparation
 published: true
 tags: [source, linkedin, data-engineering, infrastructure, feed, ml]
+locale: en
 ---
 
 # LinkedIn Engineering

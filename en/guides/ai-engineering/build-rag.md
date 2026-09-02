@@ -3,6 +3,7 @@ title: Build RAG System — Guide (Seminar Level)
 description: Execution guide: build production RAG system (retrieval, generation, evaluation, deployment)
 published: true
 tags: [guide, ai-engineering, rag, retrieval, generation, production]
+locale: en
 ---
 
 # Build RAG System — Execution Guide

@@ -3,6 +3,7 @@ title: Databricks Engineering — Source (Full Body)
 description: Databricks Engineering blog — full-body summaries for seminar preparation
 published: true
 tags: [source, databricks, data-engineering, monitoring, lakehouse, postgres, lakebase]
+locale: en
 ---
 
 # Databricks Engineering

@@ -3,6 +3,7 @@ title: Apache Kafka — Concept (Seminar Level)
 description: Seminar-level concept: Kafka architecture, partitioning, consumer groups, stream processing
 published: true
 tags: [concept, data-engineering, kafka, stream-processing, messaging]
+locale: en
 ---
 
 # Apache Kafka — Seminar Summary

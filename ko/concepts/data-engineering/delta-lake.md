@@ -3,6 +3,7 @@ title: Delta Lake — 개념 (번역)
 description: en/concepts/data-engineering/delta-lake.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, delta-lake, ko]
+locale: ko
 ---
 
 # Delta Lake — 핵심 요약

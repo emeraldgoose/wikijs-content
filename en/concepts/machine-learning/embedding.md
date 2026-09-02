@@ -3,6 +3,7 @@ title: Embedding — Concept (Seminar Level)
 description: Seminar-level concept: Embeddings, vector search, multimodal embeddings, Netflix Embedding Store
 published: true
 tags: [concept, machine-learning, embedding, vector-search, multimodal]
+locale: en
 ---
 
 # Embedding — Seminar Summary

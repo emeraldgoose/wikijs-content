@@ -3,6 +3,7 @@ title: Embedding — 개념 (번역)
 description: en/concepts/machine-learning/embedding.md 한국어 번역 요약
 published: true
 tags: [concept, machine-learning, embedding, ko]
+locale: ko
 ---
 
 # Embedding — 핵심 요약

@@ -3,6 +3,7 @@ title: Uber Engineering — 소스 (번역 요약)
 description: en/sources/articles/uber-engineering.md 한국어 번역 요약
 published: true
 tags: [source, uber, data-engineering, ai-engineering, ko]
+locale: ko
 ---
 
 # Uber Engineering — 주요 기사 요약

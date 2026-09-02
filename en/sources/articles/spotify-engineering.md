@@ -3,6 +3,7 @@ title: Spotify Engineering — Source (Full Body)
 description: Spotify Engineering RSS feed — full-body summaries for seminar preparation
 published: true
 tags: [source, rss, spotify, data-engineering, ai-engineering, ab-testing, data-lake]
+locale: en
 ---
 
 # Spotify Engineering

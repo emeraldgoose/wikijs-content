@@ -3,6 +3,7 @@ title: Netflix Tech Blog — Source (Full Body)
 description: Netflix Tech Blog RSS feed — full-body summaries of recent articles for seminar preparation
 published: true
 tags: [source, rss, netflix, data-engineering, ai-engineering, recommendation, multimodal, kueue]
+locale: en
 ---
 
 # Netflix Tech Blog

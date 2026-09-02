@@ -3,6 +3,7 @@ title: Docker — 개념 (번역)
 description: en/concepts/infrastructure/docker.md 한국어 번역 요약
 published: true
 tags: [concept, infrastructure, docker, ko]
+locale: ko
 ---
 
 # Docker — 핵심 요약

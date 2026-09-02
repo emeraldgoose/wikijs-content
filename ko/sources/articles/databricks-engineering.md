@@ -3,6 +3,7 @@ title: Databricks Engineering — 소스 (번역 요약)
 description: en/sources/articles/databricks-engineering.md 한국어 번역 요약
 published: true
 tags: [source, databricks, data-engineering, ai-engineering, ko]
+locale: ko
 ---
 
 # Databricks Engineering — 주요 기사 요약

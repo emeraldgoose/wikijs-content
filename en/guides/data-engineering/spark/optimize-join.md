@@ -3,6 +3,7 @@ title: Optimize Spark Join — Guide (Seminar Level)
 description: Execution guide: how to optimize Spark joins (broadcast, sort-merge, skew, bucketing)
 published: true
 tags: [guide, data-engineering, spark, join, performance]
+locale: en
 ---
 
 # Optimize Spark Join — Execution Guide

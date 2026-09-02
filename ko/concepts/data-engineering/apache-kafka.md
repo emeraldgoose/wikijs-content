@@ -3,6 +3,7 @@ title: Apache Kafka — 개념 (번역)
 description: en/concepts/data-engineering/apache-kafka.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, kafka, ko]
+locale: ko
 ---
 
 # Apache Kafka — 핵심 요약

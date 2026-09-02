@@ -3,6 +3,7 @@ title: LinkedIn Engineering — 소스 (번역 요약)
 description: en/sources/articles/linkedin-engineering.md 한국어 번역 요약
 published: true
 tags: [source, linkedin, data-engineering, ko]
+locale: ko
 ---
 
 # LinkedIn Engineering — 주요 기사 요약

@@ -3,6 +3,7 @@ title: Service Mesh — Concept (Seminar Level)
 description: Seminar-level concept: Service mesh architecture, Istio/Linkerd, traffic management, security, observability
 published: true
 tags: [concept, infrastructure, service-mesh, istio, linkerd, observability]
+locale: en
 ---
 
 # Service Mesh — Seminar Summary

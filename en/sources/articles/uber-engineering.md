@@ -3,6 +3,7 @@ title: Uber Engineering — Source (Full Body)
 description: Uber Engineering blog — full-body summaries for seminar preparation
 published: true
 tags: [source, uber, data-engineering, ai-engineering, software-factory, hudi, lakehouse, count-distinct]
+locale: en
 ---
 
 # Uber Engineering

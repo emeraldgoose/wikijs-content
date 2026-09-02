@@ -3,6 +3,7 @@ title: Agent (AI Agent) — Concept (Seminar Level)
 description: Seminar-level concept: AI agent architecture, System1/System2, harness, memory, planning, tool use
 published: true
 tags: [concept, ai-engineering, agent, system1-system2, harness, planning]
+locale: en
 ---
 
 # AI Agent — Seminar Summary

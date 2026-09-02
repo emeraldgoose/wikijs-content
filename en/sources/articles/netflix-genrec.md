@@ -3,6 +3,7 @@ title: GenRec — LLM-Native Recommendation (Netflix)
 description: Source summary of Netflix GenRec article; LLM-based ranker with context engineering.
 published: true
 tags: [source, paper-article, netflix, llm, recommendation, ai-engineering]
+locale: en
 ---
 
 # GenRec: Towards LLM-Native Recommendation at Netflix

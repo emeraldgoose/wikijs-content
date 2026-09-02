@@ -3,6 +3,7 @@ title: Optimize Spark Shuffle — Guide (Seminar Level)
 description: Execution guide: how to optimize Spark shuffle (technical seminar level)
 published: true
 tags: [guide, data-engineering, spark, performance, shuffle]
+locale: en
 ---
 
 # Optimize Spark Shuffle — Execution Guide

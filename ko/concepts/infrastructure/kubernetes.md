@@ -3,6 +3,7 @@ title: Kubernetes — 개념 (번역)
 description: en/concepts/infrastructure/kubernetes.md 한국어 번역 요약
 published: true
 tags: [concept, infrastructure, kubernetes, ko]
+locale: ko
 ---
 
 # Kubernetes — 핵심 요약

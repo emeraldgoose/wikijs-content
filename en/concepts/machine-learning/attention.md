@@ -3,6 +3,7 @@ title: Attention — Concept (Seminar Level)
 description: Seminar-level concept: Attention mechanisms, variants, FlashAttention, KV cache, scaling
 published: true
 tags: [concept, machine-learning, attention, transformer, flash-attention]
+locale: en
 ---
 
 # Attention — Seminar Summary

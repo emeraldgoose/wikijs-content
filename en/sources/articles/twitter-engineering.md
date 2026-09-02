@@ -3,6 +3,7 @@ title: Twitter Engineering — Source (Full Body)
 description: Twitter/X Engineering blog — full-body summaries for seminar preparation
 published: true
 tags: [source, twitter, x, data-engineering, infrastructure, tier-2]
+locale: en
 ---
 
 # Twitter / X Engineering

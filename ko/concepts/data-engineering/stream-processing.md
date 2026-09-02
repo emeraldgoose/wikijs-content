@@ -3,6 +3,7 @@ title: Stream Processing — 개념 (번역)
 description: en/concepts/data-engineering/stream-processing.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, stream-processing, ko]
+locale: ko
 ---
 
 # 스트림 처리 — 핵심 요약

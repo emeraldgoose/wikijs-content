@@ -3,6 +3,7 @@ title: Spark 조인 최적화 — 가이드 (번역)
 description: en/guides/data-engineering/spark/optimize-join.md 한국어 번역 요약
 published: true
 tags: [guide, data-engineering, spark, join, ko]
+locale: ko
 ---
 
 # Spark 조인 최적화 — 실행 가이드

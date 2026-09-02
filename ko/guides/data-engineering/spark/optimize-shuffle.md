@@ -3,6 +3,7 @@ title: Spark 셔플 최적화 — 가이드 (번역)
 description: en/guides/data-engineering/spark/optimize-shuffle.md 한국어 번역 요약
 published: true
 tags: [guide, data-engineering, spark, shuffle, ko]
+locale: ko
 ---
 
 # Spark 셔플 최적화 — 실행 가이드

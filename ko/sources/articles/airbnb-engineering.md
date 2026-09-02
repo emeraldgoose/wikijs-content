@@ -3,6 +3,7 @@ title: Airbnb Engineering — 소스 (번역 요약)
 description: en/sources/articles/airbnb-engineering.md 한국어 번역 요약
 published: true
 tags: [source, airbnb, data-engineering, ai-engineering, ko]
+locale: ko
 ---
 
 # Airbnb Engineering — 주요 기사 요약

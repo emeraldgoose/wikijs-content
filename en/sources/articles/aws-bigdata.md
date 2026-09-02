@@ -3,6 +3,7 @@ title: AWS Big Data — Source (Full Body)
 description: AWS Big Data Blog RSS feed — full-body summaries for seminar preparation
 published: true
 tags: [source, rss, aws, data-engineering, lakehouse, iceberg, spark, redshift]
+locale: en
 ---
 
 # AWS Big Data Blog

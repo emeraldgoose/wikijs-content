@@ -3,6 +3,7 @@ title: Delta Lake — Concept (Seminar Level)
 description: Seminar-level concept: Delta Lake architecture, ACID, time travel, schema evolution, optimization
 published: true
 tags: [concept, data-engineering, delta-lake, lakehouse, iceberg]
+locale: en
 ---
 
 # Delta Lake — Seminar Summary

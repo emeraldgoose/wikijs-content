@@ -3,6 +3,7 @@ title: Vector Search — 개념 (번역)
 description: en/concepts/ai-engineering/vector-search.md 한국어 번역 요약
 published: true
 tags: [concept, ai-engineering, vector-search, ko]
+locale: ko
 ---
 
 # 벡터 검색 — 핵심 요약

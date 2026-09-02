@@ -3,6 +3,7 @@ title: RAG 시스템 구축 — 가이드 (번역)
 description: en/guides/ai-engineering/build-rag.md 한국어 번역 요약
 published: true
 tags: [guide, ai-engineering, rag, retrieval, generation, ko]
+locale: ko
 ---
 
 # RAG 시스템 구축 — 실행 가이드
