@@ -82,3 +82,42 @@ Feed: https://netflixtechblog.com/feed (tier 1)
 - `concepts/data-engineering/apache-spark.md` (Kueue batch orchestration, Spark on EC2)
 - `concepts/ai-engineering/rag.md` (multimodal embeddings, context engineering)
 - `concepts/machine-learning/attention.md` (transformer-based ranking)
+
+---
+
+### A Tale of Two Flink Autoscalers (Aug 21, 2026)
+**Authors**: Multiple
+**Topic**: Comparing reactive vs predictive autoscaling for Apache Flink on Kubernetes.
+- **Reactive**: Scales based on current backlog/latency metrics (Kueue + HPA)
+- **Predictive**: Forecasts load using historical patterns + ML; pre-scales before spikes
+- **Results**: Predictive reduces SLA violations by 60% during traffic spikes; reactive simpler to operate
+- **Hybrid Approach**: Predictive for baseline + reactive for anomalies
+
+---
+
+### How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the Graph with gRPC (Aug 7, 2026)
+**Topic**: gRPC-based query layer for real-time distributed graph (Part 3 of series).
+- **Architecture**: GraphQL gateway → gRPC services → distributed graph storage (Cassandra + custom index)
+- **Query Optimization**: Predicate pushdown, parallel fan-out, result merging
+- **Consistency**: Read-your-writes via versioned reads; eventual consistency for cross-region
+- **Performance**: P99 < 50ms for 1-hop queries; horizontal scaling via partition sharding
+
+---
+
+### Modeling Device Capabilities for Analytics (Jul 31, 2026)
+**Authors**: Multiple
+**Topic**: Unified device capability model for analytics and personalization.
+- **Challenge**: Thousands of device models with varying capabilities (codecs, DRM, screen, CPU)
+- **Solution**: Hierarchical capability taxonomy + ML-based capability inference from UA + telemetry
+- **Schema**: Capability vectors (codec support, max resolution, HDR, DRM, memory class)
+- **Applications**: Adaptive bitrate selection, codec negotiation, UI layout optimization
+
+---
+
+### Toward More Controllable AI Video Editing: An Early Research Exploration (Jun 23, 2026)
+**Authors**: Multiple
+**Topic**: Research on controllable video editing with diffusion models.
+- **Control Signals**: Text prompts + spatial masks + motion trajectories + style references
+- **Architecture**: ControlNet-style adapters on video diffusion backbone
+- **Challenges**: Temporal consistency, fine-grained control, compute cost
+- **Status**: Early research; not yet in production pipeline

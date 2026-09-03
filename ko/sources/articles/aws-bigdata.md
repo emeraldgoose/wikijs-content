@@ -28,3 +28,23 @@ locale: ko
 - Glue Iceberg 구체화 뷰
 
 ## 참고: en/sources/articles/aws-bigdata.md (전문)
+
+---
+
+## Query Amazon S3 Tables from EMR Trino via Iceberg REST (2026-09-02)
+- **핵심**: Trino(EMR 7.11+) + S3 Tables + Iceberg REST 카탈로그 연동
+- **CloudFormation**으로 EMR 클러스터, S3 Tables 버킷, IAM 역할 일괄 배포
+- **Trino 카탈로그 설정**: `fs.native-s3.enabled=true`, `iceberg.rest-catalog.view-endpoints-enabled=false`
+- **운영 단순화**: S3 Tables가 압축/스냅샷/메타데이터 자동 관리 → 레이크하우스에 적합
+
+## Iceberg 구체화 뷰로 메달리온 아키텍처 구축 (2026-09-02)
+- **Bronze→Silver→Gold** 3계층을 **중첩 구체화 뷰** 3개 SQL로 구현, 오케스트레이션 코드 없음
+- **S3 Tables** + Athena Spark / Glue 5.1+ / EMR 7.12+
+- **증분 리프레시**: 변경된 데이터만 처리, 워터마크/DAG/CDC 불필요
+- **파이프라인 생성 <2분**, 수동 리프레시는 각 컴퓨트 서비스 요금제 적용
+
+## Iceberg + Flink로 동적 스트리밍 데이터 레이크 (2026-09-02)
+- **Flink 관리형 서비스** + **Iceberg Dynamic Sink**로 스키마 진화 자동 처리
+- **기존 파일 유효 유지**, 새 컬럼은 과거 파일에 null 반환
+- **새 이벤트 타입** → 체크포인트 주기마다 새 Iceberg 테이블 자동 생성
+- **Athena**로 쿼리 가능, 파이프라인 중단 없이 스키마 변경 대응

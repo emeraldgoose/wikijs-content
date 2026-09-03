@@ -55,3 +55,70 @@ Feed: https://aws.amazon.com/blogs/big-data/feed/ (tier 1)
 - **Architecture**: Resource server per OAuth provider; audience claim routes to correct signing keys
 
 **Related Concepts**: `concepts/infrastructure/kubernetes.md`, `concepts/data-engineering/stream-processing.md`
+
+---
+
+### Query Amazon S3 Tables from Amazon EMR Trino using the Iceberg REST endpoint (Sep 2, 2026)
+**Authors**: Shubham Purwar, Anirudh Chawla, Nitin Kumar, Prashanthi Chinthala
+
+**Topic**: Querying Amazon S3 Tables from Trino on Amazon EMR via Iceberg REST catalog endpoint.
+
+**Architecture**:
+- **Trino on Amazon EMR** (v475+, EMR 7.11+) — distributed SQL engine with ANSI SQL compatibility
+- **Amazon S3 Tables** — managed Apache Iceberg storage with automatic compaction, snapshot expiration, metadata management
+- **Iceberg REST Catalog** — standard interface for table operations
+
+**Implementation**:
+1. Deploy via CloudFormation template (`emr-trino-s3tables.yaml`) creating EMR cluster, S3 Tables bucket, IAM roles, security groups
+2. Configure Trino catalog with Iceberg REST endpoint properties:
+   ```
+   iceberg.rest-catalog.view-endpoints-enabled=false
+   fs.hadoop.enabled=false
+   fs.native-s3.enabled=true
+   s3.region=us-east-1
+   s3.iam-role=arn:aws:iam::<ACCOUNT-ID>:role/service-role/<ROLE-NAME>
+   ```
+3. Set up EMR service role trust relationships for S3 Tables access
+
+**Key Insight**: S3 Tables eliminates operational complexity of Iceberg metadata management; Trino provides interactive query performance. Well-suited for modern data lakehouses and multi-engine analytics platforms.
+
+**Related Concepts**: `concepts/data-engineering/apache-iceberg.md`, `concepts/data-engineering/stream-processing.md`, `concepts/infrastructure/kubernetes.md`
+
+---
+
+### Building Medallion Architecture with Iceberg Materialized Views in Amazon SageMaker (Sep 2, 2026)
+**Topic**: Bronze → Silver → Gold medallion architecture using Iceberg materialized views with zero orchestration code.
+
+**Architecture**:
+- **Storage**: Amazon S3 Tables (managed Iceberg)
+- **Compute**: Amazon Athena Spark, AWS Glue 5.1+, Amazon EMR 7.12+
+- **Pattern**: Nested materialized views — each layer defined as a single SQL statement that incrementally refreshes
+
+**Layers**:
+- **Bronze**: Raw data capture (preserves original format for audit/replay)
+- **Silver**: Cleaning, deduplication, type casting, business logic → validated datasets
+- **Gold**: Pre-aggregated business metrics (city daily metrics, vehicle performance) via materialized views
+
+**Key Insight**: Full pipeline creation in under 2 minutes; incremental refreshes process only changed data with no watermarks, no DAGs, no CDC plumbing. Manual refreshes billed under respective compute service pricing.
+
+**Related Concepts**: `concepts/data-engineering/apache-iceberg.md`, `concepts/data-engineering/stream-processing.md`, `concepts/ai-engineering/feature-store.md`
+
+---
+
+### Build a Dynamic Streaming Data Lake with Apache Iceberg and Apache Flink (Sep 2, 2026)
+**Topic**: Dynamic streaming data lake that adapts to new event types and schema changes without stopping the pipeline.
+
+**Architecture**:
+- **Managed Service for Apache Flink** — fully managed streaming applications
+- **Apache Iceberg Dynamic Sink** — automatic schema evolution (existing files stay valid, new columns return null for older files)
+- **Catalog**: Amazon S3 Tables or AWS Glue Data Catalog (Iceberg format v2 or v3)
+
+**Capabilities**:
+- Schema evolution without table rewrites
+- New event types → new Iceberg tables appear automatically per checkpoint interval
+- New fields (e.g., `userAgent`, `scrollDepth`) added as optional columns to existing tables
+- Query results via Amazon Athena
+
+**Key Insight**: Eliminates pipeline downtime for schema changes; enables streaming lakehouse with Iceberg's ACID guarantees and Flink's exactly-once processing.
+
+**Related Concepts**: `concepts/data-engineering/stream-processing.md`, `concepts/data-engineering/apache-iceberg.md`, `concepts/data-engineering/apache-flink.md`
