@@ -1,12 +1,12 @@
 ---
-title: RAG — 개념 (번역)
+title: 검색 증강 생성 (RAG)
 description: en/concepts/ai-engineering/rag.md 한국어 번역 요약
 published: true
 tags: [concept, ai-engineering, rag, ko]
 locale: ko
 ---
 
-# RAG — 세미나 요약
+# 검색 증강 생성 (RAG)
 
 **원전**: Netflix GenRec (context engineering), Databricks Hydra (PromQL-to-SQL), Uber software factory (agent skills), PonderPounce (System2 reasoning), JIT-Agent (harness intelligence)
 

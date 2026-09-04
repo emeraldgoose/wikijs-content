@@ -1,12 +1,12 @@
 ---
-title: Service Mesh — 개념 (번역)
+title: 서비스 메시 (Service Mesh)
 description: en/concepts/infrastructure/service-mesh.md 한국어 번역 요약
 published: true
 tags: [concept, infrastructure, service-mesh, istio, linkerd, observability, ko]
 locale: ko
 ---
 
-# Service Mesh — 세미나 요약
+# 서비스 메시 (Service Mesh)
 
 **참고 소스**: Netflix 서비스 토폴로지, Databricks 모니터링, Uber 마이크로서비스, LinkedIn 인프라
 

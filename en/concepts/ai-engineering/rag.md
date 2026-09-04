@@ -1,12 +1,12 @@
 ---
-title: RAG (Retrieval-Augmented Generation) — Concept (Seminar Level)
+title: Retrieval-Augmented Generation (RAG)
 description: Seminar-level concept: RAG architecture, retrieval, generation, evaluation, production patterns
 published: true
 tags: [concept, ai-engineering, rag, retrieval, generation, llm]
 locale: en
 ---
 
-# RAG — Seminar Summary
+# Retrieval-Augmented Generation (RAG)
 
 **Read from**: Netflix GenRec (context engineering), Databricks Hydra (PromQL-to-SQL), Uber software factory (agent skills), PonderPounce (System2 reasoning), JIT-Agent (harness intelligence)
 

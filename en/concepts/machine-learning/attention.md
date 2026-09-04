@@ -1,12 +1,12 @@
 ---
-title: Attention — Concept (Seminar Level)
+title: Attention
 description: Seminar-level concept: Attention mechanisms, variants, FlashAttention, KV cache, scaling
 published: true
 tags: [concept, machine-learning, attention, transformer, flash-attention]
 locale: en
 ---
 
-# Attention — Seminar Summary
+# Attention
 
 **Read from**: Transformer concept, HuggingFace Unified Dynamics paper, PonderPounce System2/System1, JIT-Agent
 

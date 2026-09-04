@@ -1,12 +1,12 @@
 ---
-title: Stream Processing — Concept (Seminar Level)
+title: Stream Processing
 description: Seminar-level concept: stream processing fundamentals, event-time, watermarks, stateful ops, frameworks
 published: true
 tags: [concept, data-engineering, stream-processing, flink, spark-streaming, kafka-streams]
 locale: en
 ---
 
-# Stream Processing — Seminar Summary
+# Stream Processing
 
 **Read from**: Netflix real-time graph, Twitter Sparrow, Uber export workloads, Databricks monitoring, LinkedIn FishDB
 

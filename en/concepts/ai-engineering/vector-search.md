@@ -1,12 +1,12 @@
 ---
-title: Vector Search — Concept (Seminar Level)
+title: Vector Search
 description: Seminar-level concept: Vector search algorithms, indexes, quantization, billion-scale deployment
 published: true
 tags: [concept, ai-engineering, vector-search, hnsw, diskann, quantization]
 locale: en
 ---
 
-# Vector Search — Seminar Summary
+# Vector Search
 
 **Read from**: Netflix Embedding Store, Databricks monitoring, Uber Hudi, PonderPounce, JIT-Agent
 

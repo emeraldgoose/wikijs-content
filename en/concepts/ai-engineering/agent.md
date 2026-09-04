@@ -1,12 +1,12 @@
 ---
-title: Agent (AI Agent) — Concept (Seminar Level)
+title: AI Agent
 description: Seminar-level concept: AI agent architecture, System1/System2, harness, memory, planning, tool use
 published: true
 tags: [concept, ai-engineering, agent, system1-system2, harness, planning]
 locale: en
 ---
 
-# AI Agent — Seminar Summary
+# AI Agent
 
 **Read from**: Netflix GenRec (prefill-only serving), Uber software factory (agent skills), Databricks Lakebase (agentic DB), PonderPounce (System2/System1), JIT-Agent (harness intelligence), StepGuard (step-level guard)
 

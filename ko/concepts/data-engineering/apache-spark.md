@@ -1,12 +1,12 @@
 ---
-title: Apache Spark — 개념 (번역)
+title: Apache Spark
 description: en/concepts/data-engineering/apache-spark.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, spark, ko]
 locale: ko
 ---
 
-# Apache Spark — 세미나 요약
+# Apache Spark
 
 **원문 출처**: 전체 문서 + 소스 아티클 (AWS 레이크하우스, Netflix Kueue 비교, Databricks 엔지니어링, Uber Hudi)
 

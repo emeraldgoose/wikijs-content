@@ -1,12 +1,12 @@
 ---
-title: Vector Search — 개념 (번역)
+title: 벡터 검색 (Vector Search)
 description: en/concepts/ai-engineering/vector-search.md 한국어 번역 요약
 published: true
 tags: [concept, ai-engineering, vector-search, ko]
 locale: ko
 ---
 
-# 벡터 검색 — 세미나 요약
+# 벡터 검색 (Vector Search)
 
 **원전**: Netflix Embedding Store, Databricks monitoring, Uber Hudi, PonderPounce, JIT-Agent
 

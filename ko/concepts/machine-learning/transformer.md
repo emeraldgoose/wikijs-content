@@ -1,12 +1,12 @@
 ---
-title: Transformer — 개념 (세미나 수준)
+title: 트랜스포머 (Transformer)
 description: 세미나 수준 개념: Transformer 아키텍처, attention 메커니즘, 스케일링 법칙, 훈련 동역학
 published: true
 tags: [concept, machine-learning, transformer, attention, llm, scaling, ko]
 locale: ko
 ---
 
-# Transformer — 세미나 요약
+# 트랜스포머 (Transformer)
 
 **출처**: 소스 기사 (Netflix GenRec, Spotify LLM A/B 테스팅, Databricks 모니터링, HuggingFace 논문: Unified Dynamics, PonderPounce, JIT-Agent)
 

@@ -1,12 +1,12 @@
 ---
-title: Apache Spark — Concept (Seminar Level)
+title: Apache Spark
 description: Seminar-level concept: Spark architecture, RDD/DAG, Structured Streaming, use cases, optimization
 published: true
 tags: [concept, data-engineering, spark, distributed-computing, performance]
 locale: en
 ---
 
-# Apache Spark — Seminar Summary
+# Apache Spark
 
 **Read from**: Full documentation + source articles (AWS lakehouse, Netflix Kueue comparison, Databricks engineering, Uber Hudi)
 

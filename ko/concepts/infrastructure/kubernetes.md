@@ -1,12 +1,12 @@
 ---
-title: Kubernetes — 개념 (번역)
+title: Kubernetes
 description: en/concepts/infrastructure/kubernetes.md 한국어 번역 요약
 published: true
 tags: [concept, infrastructure, kubernetes, orchestration, operators, ko]
 locale: ko
 ---
 
-# Kubernetes — 세미나 요약
+# Kubernetes
 
 **참고 소스**: Netflix Kueue, AWS MSK, Databricks Pantheon, Uber, LinkedIn, Twitter
 

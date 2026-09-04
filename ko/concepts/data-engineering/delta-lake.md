@@ -1,12 +1,12 @@
 ---
-title: Delta Lake — 개념 (번역)
+title: Delta Lake
 description: en/concepts/data-engineering/delta-lake.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, delta-lake, ko]
 locale: ko
 ---
 
-# Delta Lake — 세미나 요약
+# Delta Lake
 
 **원문 출처**: AWS 레이크하우스 (Iceberg 비교), Databricks 모니터링 (Hydra), Databricks Lakebase Postgres
 

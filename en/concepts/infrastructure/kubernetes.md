@@ -1,12 +1,12 @@
 ---
-title: Kubernetes — Concept (Seminar Level)
+title: Kubernetes
 description: Seminar-level concept: Kubernetes architecture, scheduling, networking, storage, operators
 published: true
 tags: [concept, infrastructure, kubernetes, orchestration, operators]
 locale: en
 ---
 
-# Kubernetes — Seminar Summary
+# Kubernetes
 
 **Read from**: Netflix Kueue, AWS MSK, Databricks Pantheon, Uber, LinkedIn, Twitter
 

@@ -1,12 +1,12 @@
 ---
-title: Attention — 개념 (세미나 수준)
+title: 어텐션 (Attention)
 description: 세미나 수준 개념: Attention 메커니즘, 변형, FlashAttention, KV 캐시, 스케일링
 published: true
 tags: [concept, machine-learning, attention, transformer, flash-attention, ko]
 locale: ko
 ---
 
-# Attention — 세미나 요약
+# 어텐션 (Attention)
 
 **출처**: Transformer 개념, HuggingFace Unified Dynamics 논문, PonderPounce System2/System1, JIT-Agent
 

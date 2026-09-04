@@ -1,12 +1,12 @@
 ---
-title: Docker — 개념 (번역)
+title: Docker
 description: en/concepts/infrastructure/docker.md 한국어 번역 요약
 published: true
 tags: [concept, infrastructure, docker, container, buildkit, ko]
 locale: ko
 ---
 
-# Docker / 컨테이너 — 세미나 요약
+# Docker
 
 **참고 소스**: Netflix Kueue, AWS MSK, Databricks Pantheon, Uber, Twitter
 

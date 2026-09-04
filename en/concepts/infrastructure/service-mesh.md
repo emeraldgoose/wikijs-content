@@ -1,12 +1,12 @@
 ---
-title: Service Mesh — Concept (Seminar Level)
+title: Service Mesh
 description: Seminar-level concept: Service mesh architecture, Istio/Linkerd, traffic management, security, observability
 published: true
 tags: [concept, infrastructure, service-mesh, istio, linkerd, observability]
 locale: en
 ---
 
-# Service Mesh — Seminar Summary
+# Service Mesh
 
 **Read from**: Netflix service topology, Databricks monitoring, Uber microservices, LinkedIn infrastructure
 

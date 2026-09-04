@@ -1,12 +1,12 @@
 ---
-title: Stream Processing — 개념 (번역)
+title: 스트림 처리 (Stream Processing)
 description: en/concepts/data-engineering/stream-processing.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, stream-processing, ko]
 locale: ko
 ---
 
-# 스트림 처리 — 세미나 요약
+# 스트림 처리 (Stream Processing)
 
 **원문 출처**: Netflix 실시간 그래프, Twitter Sparrow, Uber 익스포트 워크로드, Databricks 모니터링, LinkedIn FishDB
 

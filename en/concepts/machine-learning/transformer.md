@@ -1,12 +1,12 @@
 ---
-title: Transformer — Concept (Seminar Level)
+title: Transformer
 description: Seminar-level concept: Transformer architecture, attention mechanisms, scaling laws, training dynamics
 published: true
 tags: [concept, machine-learning, transformer, attention, llm, scaling]
 locale: en
 ---
 
-# Transformer — Seminar Summary
+# Transformer
 
 **Read from**: Source articles (Netflix GenRec, Spotify LLM A/B testing, Databricks monitoring, HuggingFace papers: Unified Dynamics, PonderPounce, JIT-Agent)
 

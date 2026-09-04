@@ -1,12 +1,12 @@
 ---
-title: Delta Lake — Concept (Seminar Level)
+title: Delta Lake
 description: Seminar-level concept: Delta Lake architecture, ACID, time travel, schema evolution, optimization
 published: true
 tags: [concept, data-engineering, delta-lake, lakehouse, iceberg]
 locale: en
 ---
 
-# Delta Lake — Seminar Summary
+# Delta Lake
 
 **Read from**: AWS lakehouse (Iceberg comparison), Databricks monitoring (Hydra), Databricks Lakebase Postgres
 

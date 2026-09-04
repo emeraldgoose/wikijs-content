@@ -1,12 +1,12 @@
 ---
-title: Agent — 개념 (번역)
+title: AI 에이전트 (AI Agent)
 description: en/concepts/ai-engineering/agent.md 한국어 번역 요약
 published: true
 tags: [concept, ai-engineering, agent, ko]
 locale: ko
 ---
 
-# AI Agent — 세미나 요약
+# AI 에이전트 (AI Agent)
 
 **원전**: Netflix GenRec (prefill-only 서빙), Uber software factory (agent skills), Databricks Lakebase (agentic DB), PonderPounce (System2/System1), JIT-Agent (harness intelligence), StepGuard (step-level guard)
 

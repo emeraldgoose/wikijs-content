@@ -1,12 +1,12 @@
 ---
-title: Embedding — 개념 (세미나 수준)
+title: 임베딩 (Embedding)
 description: 세미나 수준 개념: 임베딩, 벡터 검색, 멀티모달 임베딩, Netflix Embedding Store
 published: true
 tags: [concept, machine-learning, embedding, vector-search, multimodal, ko]
 locale: ko
 ---
 
-# Embedding — 세미나 요약
+# 임베딩 (Embedding)
 
 **출처**: Netflix MAPS(멀티모달 임베딩), GenRec(verbalization), Databricks 모니터링, Uber Hudi, PonderPounce
 

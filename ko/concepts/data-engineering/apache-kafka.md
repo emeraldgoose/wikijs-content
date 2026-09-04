@@ -1,12 +1,12 @@
 ---
-title: Apache Kafka — 개념 (번역)
+title: Apache Kafka
 description: en/concepts/data-engineering/apache-kafka.md 한국어 번역 요약
 published: true
 tags: [concept, data-engineering, kafka, ko]
 locale: ko
 ---
 
-# Apache Kafka — 세미나 요약
+# Apache Kafka
 
 **원문 출처**: 소스 아티클 (Uber Kafka 최적화, Netflix 스트림 처리, Twitter Sparrow 전환, LinkedIn FishDB)
 
