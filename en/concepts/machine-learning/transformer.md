@@ -101,9 +101,9 @@ MultiHead = Concat(head_1...head_h) · W^O
 ## Related Sources
 - `sources/articles/netflix-techblog.md` (GenRec two-phase)
 - `sources/articles/spotify-engineering.md` (LLM A/B testing)
-- `sources/papers/2608.20965-unified-dynamics.md` (training dynamics)
-- `sources/papers/2608.24115-ponderpounce.md` (System2/System1)
-- `sources/papers/2608.25593-jit-agent.md` (harness intelligence)
+- `sources/papers/Training_Learning_and_Inference.md` (training dynamics)
+- `sources/papers/PonderPounce.md` (System2/System1)
+- `sources/papers/JIT-Agent.md` (harness intelligence)
 
 ## Related Guides
 - `guides/ai-engineering/build-rag.md`

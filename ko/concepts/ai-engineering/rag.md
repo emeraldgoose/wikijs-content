@@ -113,8 +113,8 @@ Answer:
 ## 관련 원전
 - `sources/articles/netflix-techblog.md` (GenRec context engineering)
 - `sources/articles/databricks-engineering.md` (Hydra PromQL-to-SQL)
-- `sources/papers/2608.24115-ponderpounce.md` (System2 context)
-- `sources/papers/2608.25593-jit-agent.md` (harness as retrieval)
+- `sources/papers/PonderPounce.md` (System2 context)
+- `sources/papers/JIT-Agent.md` (harness as retrieval)
 
 ## 관련 가이드
 - `guides/ai-engineering/build-rag.md`
